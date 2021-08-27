@@ -1,0 +1,268 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.z-index {
+  z-index: 3;
+}
+
+/*HEADER*/
+header {
+  margin-bottom: 297px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+.navigationText {
+  line-height: 54px;
+  font-size: 18px;
+  color: #989696;
+}
+
+/*MAIN*/
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.navigationText a:hover {
+  color: #010101;
+  cursor: pointer;
+}
+
+.grettingTextSup {
+  font-weight: 300;
+  color: #1d1e1f;
+  font-size: 44px;
+}
+
+.grettingTextSub {
+  font-family: "Merriweather", serif;
+  color: #898888;
+}
+
+.grettingButton {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 23px 45px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.grettingButton:hover {
+  color: #fff;
+  background: #181818;
+}
+
+/*SECTION*/
+.myYears {
+  background: url("../img/background/background-1.jpg") center/cover no-repeat;
+  height: 1342px;
+  padding-top: 150px;
+}
+
+.titleYear {
+  color: #fefefe;
+  font-size: 48px;
+}
+
+.textYear {
+  color: #b7b7b7;
+}
+
+.circle {
+  position: absolute;
+  content: "";
+  background: #1d1d1d;
+  border: 5px solid #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 16px 0 0 10px;
+  padding: 0;
+}
+
+.circleBold {
+  width: 46px;
+  height: 46px;
+}
+
+/*SECTION*/
+.sectionTitleSup {
+  font-size: 34px;
+  font-weight: 300;
+  color: #1d1e1f;
+}
+
+.sectionTitleSub {
+  color: #898888;
+  font-family: "Merriweather", serif;
+}
+
+.teamMargin {
+  margin-top: 124px;
+}
+
+.teamPadding {
+  padding-top: 91px;
+}
+
+.teamImg img {
+  border-radius: 50%;
+}
+
+.teamName {
+  font-size: 24px;
+  color: #464646;
+}
+
+.teamJob {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.teamIcon {
+  color: #b3b3b3;
+}
+
+.teamIcon a:hover {
+  color: #464646;
+}
+
+/*SECTION*/
+.provide {
+  padding-top: 100px;
+}
+
+.provide .container {
+  overflow: hidden;
+}
+
+.maskTop {
+  background: #181818;
+  transform: skewY(-5deg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.provide .sectionTitleSup {
+  padding-top: 50px;
+  color: #fff;
+}
+
+.provide .sectionTitleSub {
+  margin-bottom: 215px;
+}
+
+.provideTitle {
+  color: #fff;
+  font-size: 26px;
+}
+
+.provideText {
+  color: #696969;
+  font-size: 18px;
+}
+
+.provideButton {
+  margin-top: 470px;
+  padding-bottom: 20px;
+}
+
+.provideButton a {
+  text-transform: uppercase;
+  color: #000;
+  padding: 20px 40px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.provideButton a:hover {
+  color: #fff;
+  background: #181818;
+}
+
+.mask {
+  background: url("../img/background/background-mask.png") center no-repeat;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.6) translateX(50px);
+  position: absolute;
+  bottom: -330px;
+  opacity: 0.4;
+}
+/*SECTION*/
+footer {
+  margin-top: 240px;
+}
+
+.contactIcon {
+  font-size: 18px;
+  color: #323232;
+}
+
+.contactLink {
+  color: #898888;
+}
+
+/*FORM*/
+.contactForm {
+  margin-top: 150px;
+}
+
+.contactFormInput input {
+  height: 52px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #999999;
+  color: #888888;
+  line-height: 52px;
+  padding-left: 21px;
+}
+
+.contactFormInput textarea {
+  height: 195px;
+  resize: none;
+  outline: none;
+  border: 1px solid #999999;
+  color: #888888;
+  margin-bottom: 20px;
+  padding: 21px;
+}
+
+.contactFormInputSubmit input {
+  font-size: 17px;
+  color: #fff;
+  background: #000;
+}
+
+.contactFormInput input:focus,
+.contactFormInput textarea:focus {
+  border: 1px solid #000;
+}
+
+.copyright {
+  margin: 155px 0 58px 0;
+  color: #3b3b3b;
+}
